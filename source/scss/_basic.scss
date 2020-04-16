@@ -129,3 +129,29 @@ section {
         font-size: 18px;
     }
 }
+
+.iconBox {
+    .img-icon {
+        max-width: 100%;
+        margin: 0 auto 42px;
+        width: auto;
+    }
+    .icon {
+        border-radius: 50%;
+        display: block;
+        font-size: 27px;
+        line-height: 70px;
+        margin: 0 auto 30px;
+        height: 70px;
+        width: 70px;
+    }
+    &:hover {
+        h5 {
+            color: $primary-color;
+        }
+        svg {
+            -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+        }
+    }
+}
