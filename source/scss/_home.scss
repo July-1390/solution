@@ -332,3 +332,72 @@
         }
     }
 }
+
+// ==== Content Section ==== //
+.content-sec-2col {
+    overflow: hidden;
+    .iconBox {
+        text-align: left;
+        .icon {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            margin: 0 0 27px;
+            border-radius: 4px;
+            position: relative;
+            svg {
+                position: absolute;
+                width: 30px;
+                height: 30px;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+                -webkit-transition: all .5s;
+                transition: all .5s;
+            }
+        }
+        img {
+            margin: 0 auto;
+            @media screen and (max-width: 991px) {
+                margin: 0 auto;
+                max-width: 100%;
+                width: auto;
+            }
+        }
+        h5 {
+            font-family: $title-fonts;
+            font-size: 24px;
+            margin-bottom: 13px;
+        }
+        p {
+            color: #7b8491;
+            font-size: 15px;
+        }
+    }
+    .content-box {
+        h2 {
+            font-size: 48px;
+            line-height: 60px;
+            margin-bottom: 18px;
+            @media screen and (max-width: 991px) {
+                font-size: 38px;
+                line-height: 48px;
+            }
+            @media screen and (max-width: 479px) {
+                font-size: 38px;
+                line-height: 48px;
+            }
+        }
+        h5 {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 30px;
+            margin-bottom: 30px;
+        }
+    }
+}
