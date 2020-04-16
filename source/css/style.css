@@ -142,6 +142,31 @@ section {
   }
 }
 
+.iconBox .img-icon {
+  max-width: 100%;
+  margin: 0 auto 42px;
+  width: auto;
+}
+
+.iconBox .icon {
+  border-radius: 50%;
+  display: block;
+  font-size: 27px;
+  line-height: 70px;
+  margin: 0 auto 30px;
+  height: 70px;
+  width: 70px;
+}
+
+.iconBox:hover h5 {
+  color: #ee9abb;
+}
+
+.iconBox:hover svg {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
 .header {
   display: block;
   position: relative;
@@ -537,6 +562,89 @@ section {
 .features .iconBox:hover svg {
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
+}
+
+.content-sec-2col {
+  overflow: hidden;
+}
+
+.content-sec-2col .iconBox {
+  text-align: left;
+}
+
+.content-sec-2col .iconBox .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 0 27px;
+  border-radius: 4px;
+  position: relative;
+}
+
+.content-sec-2col .iconBox .icon svg {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.content-sec-2col .iconBox img {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 991px) {
+  .content-sec-2col .iconBox img {
+    margin: 0 auto;
+    max-width: 100%;
+    width: auto;
+  }
+}
+
+.content-sec-2col .iconBox h5 {
+  font-family: "Circular Std", sans-serif;
+  font-size: 24px;
+  margin-bottom: 13px;
+}
+
+.content-sec-2col .iconBox p {
+  color: #7b8491;
+  font-size: 15px;
+}
+
+.content-sec-2col .content-box h2 {
+  font-size: 48px;
+  line-height: 60px;
+  margin-bottom: 18px;
+}
+
+@media screen and (max-width: 991px) {
+  .content-sec-2col .content-box h2 {
+    font-size: 38px;
+    line-height: 48px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .content-sec-2col .content-box h2 {
+    font-size: 38px;
+    line-height: 48px;
+  }
+}
+
+.content-sec-2col .content-box h5 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 30px;
 }
 
 .lds-dual-ring {
