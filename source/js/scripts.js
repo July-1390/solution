@@ -42,11 +42,29 @@
             .to('.patha3', 5, { rotation: '-25', yoyo: true, ease: Linear.easeNone, repeat: -1, repeatDelay: 1, transformOrigin: "50% 100%" }, 'f1')
             .to('.gear', 5, { rotation: '360', ease: Linear.easeNone, repeat: -1, transformOrigin: "50% 50%" }, 'f1')
             .to('.speaker', 1, { css: { "transform": "scale(1.1)" }, ease: Bounce.easeInOut, repeatDelay: 1, repeat: -1, }, 'f1')
-
-
-
     }
     bannerArt();
+
+
+    // ==== Owl Carousel ==== //
+    $(".app-caro").owlCarousel({
+        autoplay: true,
+        center: true,
+        margin: 30,
+        loop: true,
+        nav: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 5
+            }
+        }
+    });
 
     // ==== Anchor Click Animation ==== //
 
