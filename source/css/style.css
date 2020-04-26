@@ -151,6 +151,18 @@ section {
   width: 150%;
 }
 
+.btn-default {
+  background-color: #ee9abb;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.btn-default:hover {
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.05);
+}
+
 .tagline {
   color: #ee9abb;
   display: block;
@@ -838,6 +850,344 @@ section {
 .app-download-btn:hover i,
 .app-download-btn:hover span {
   color: #ffffff;
+}
+
+.testimonials article {
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .testimonials article {
+    margin-bottom: 30px;
+  }
+}
+
+.testimonials article .body {
+  border: 1px solid #dfe0e5;
+  border-bottom: 0;
+  border-radius: 5px 5px 0 0;
+  padding: 70px 40px 35px;
+  position: relative;
+}
+
+@media screen and (max-width: 991px) {
+  .testimonials article .body {
+    padding: 30px 20px 30px;
+  }
+}
+
+.testimonials article .body p {
+  color: #6e7783;
+  font-size: 17px;
+  line-height: 32px;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 991px) {
+  .testimonials article .body p {
+    font-size: 15px;
+    line-height: 28px;
+  }
+}
+
+.testimonials article .body .quote {
+  width: 64px;
+  height: 55px;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+@media screen and (max-width: 991px) {
+  .testimonials article .body .quote {
+    top: 20px;
+    left: 20px;
+  }
+}
+
+.testimonials article footer {
+  background-color: #f4f6fb;
+  border-radius: 0 0 5px 5px;
+  padding: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+@media screen and (max-width: 991px) {
+  .testimonials article footer {
+    padding: 30px 20px;
+  }
+}
+
+.testimonials article footer .avatar {
+  width: 65px;
+  height: 65px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 1199px) {
+  .testimonials article footer .avatar {
+    margin-bottom: 20px;
+  }
+}
+
+.testimonials article footer .u-details h4 {
+  color: #233d63;
+  font-family: "Circular Std", sans-serif;
+  font-size: 24px;
+  line-height: 27px;
+  margin-bottom: 0;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.testimonials article footer .u-details span {
+  display: block;
+  color: #7b8491;
+  font-size: 15px;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.testimonials article footer:hover {
+  background-color: #ee9abb;
+}
+
+.blog-section .post-content {
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 10px 20px rgba(1, 36, 75, 0.1);
+  box-shadow: 0 10px 20px rgba(1, 36, 75, 0.1);
+  padding: 30px;
+  position: relative;
+  width: calc(100% - 30px);
+  margin: -50px auto 0;
+}
+
+@media screen and (max-width: 479px) {
+  .blog-section .post-content {
+    padding: 20px;
+  }
+}
+
+.post-item a {
+  color: #233d63;
+  font-family: "Circular Std", sans-serif;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.post-item .post-meta.category {
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Circular Std", sans-serif;
+  font-size: 16px;
+  text-transform: capitalize;
+  line-height: 0.8;
+  padding: 18px 25px;
+  position: absolute;
+  top: -25px;
+  left: 25px;
+  z-index: 5;
+}
+
+.meta-tags {
+  margin-bottom: 13px;
+}
+
+.meta-tags a {
+  color: #7b8491;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 0.8;
+  text-transform: capitalize;
+  position: relative;
+}
+
+.meta-tags a:not(:last-child) {
+  margin-right: 25px;
+}
+
+@media screen and (max-width: 360px) {
+  .meta-tags a:not(:last-child) {
+    margin-right: 12px;
+  }
+}
+
+.meta-tags a i {
+  color: #ee9abb;
+  font-size: 15px;
+}
+
+.partners-logo {
+  -webkit-box-align: inherit;
+  -ms-flex-align: inherit;
+  align-items: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.partners-logo a img {
+  max-width: 100%;
+  width: auto;
+  margin: 0 auto;
+  opacity: 0.3;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.partners-logo a img:hover {
+  opacity: 1;
+}
+
+.footer {
+  background-color: #f4f6fb;
+  position: relative;
+}
+
+.footer .logo {
+  margin-bottom: 33px;
+  max-width: 150px;
+}
+
+.footer .widget-title {
+  color: #233d63;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.footer .widget-text p {
+  color: #7b8491;
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 24px;
+}
+
+.footer .widget-text .phone {
+  color: #ee9abb;
+  font-family: "Circular Std", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.footer .widget-navigation li a {
+  color: #7b8491;
+  font-size: 15px;
+  line-height: 32px;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.footer .widget-navigation li a:hover {
+  color: #ee9abb;
+  padding-left: 5px;
+}
+
+.footer .widget-newletter p {
+  color: #7b8491;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+.footer .widget-newletter form {
+  width: 100%;
+}
+
+.footer .widget-newletter form .form-field {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.footer .widget-newletter form .form-field i {
+  color: #ee9abb;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.footer .widget-newletter form input {
+  background-color: #fff;
+  border: none;
+  color: #888;
+  font-size: 14px;
+  padding: 16px 40px 16px 20px;
+  width: 100%;
+}
+
+.footer .foo-top {
+  padding: 100px 0;
+  border-bottom: 1px solid #dfe0e5;
+}
+
+.footer .foo-btm {
+  padding: 28px 0;
+}
+
+.footer .foo-btm .copyright {
+  color: #7b8491;
+  font-size: 15px;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+
+.footer .foo-btm .copyright a {
+  color: #ee9abb;
+}
+
+.widget {
+  position: relative;
+  margin-bottom: 45px;
+}
+
+.widget .widget-title {
+  font-family: "Circular Std", sans-serif;
+  font-size: 24px;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  position: relative;
+}
+
+.widget .widget-title:after {
+  content: "";
+  position: absolute;
+  top: auto;
+  left: 0;
+  right: auto;
+  bottom: 0;
+  background-color: #ee9abb;
+  height: 2px;
+  width: 70px;
+}
+
+.widget p {
+  color: #999;
+}
+
+.widget li a {
+  color: #999;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.widget li:hover {
+  color: #233d63;
 }
 
 .lds-dual-ring {
