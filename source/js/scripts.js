@@ -66,6 +66,27 @@
         }
     });
 
+    $(".partners-logo").owlCarousel({
+        autoplay: true,
+        margin: 30,
+        loop: true,
+        nav: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            360: {
+                items: 2
+            },
+            480: {
+                items: 3
+            },
+            768: {
+                items: 4
+            }
+        }
+    });
+
     // ==== Anchor Click Animation ==== //
 
     $('#topbtn').on('click', function(e) {
