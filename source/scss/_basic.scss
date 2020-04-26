@@ -137,6 +137,17 @@ section {
     }
 }
 
+.btn-default {
+    background-color: $primary-color;
+    border-radius: 50px;
+    color: #fff;
+    &:hover {
+        background-color: #fff;
+        -webkit-box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.05);
+        box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.05);
+    }
+}
+
 .tagline {
     color: $primary-color;
     display: block;
